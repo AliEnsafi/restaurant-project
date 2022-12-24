@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/all.js"></script>
+    <title>car project</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <!-- start preloader -->
+    <div class="preloader d-flex justify-content-center align-items-center">
+        <img src="img/preloader.gif" alt="preloader">
+    </div>
+    <!-- finish preloader -->
+
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand mt-2">
+            <i class="material-icons" style="font-size: 29px; color: #d03943de;">restaurant</i>
+        </a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#Options" tabindex="-1" aria-disabled="true">Options</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#inventoryes" tabindex="-1"
+                        aria-disabled="true">Inventory</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#featured" tabindex="-1" aria-disabled="true">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#gallery" tabindex="-1" aria-disabled="true">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#services" tabindex="-1" aria-disabled="true">Services</a>
+                </li>
+            </ul>
+
+            <!-- start icons -->
+            <div class="nav-icons d-none d-lg-block">
+                <a href="#" class="nav-icon">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="nav-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="nav-icon">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </div>
+            <!-- finish icons -->
+        </div>
+    </nav>
+    <!-- finish navbar -->
+
+    <!-- start header -->
+    <header class="header" id="header">
+        <div class="container-fluid">
+            <div class="row height-max align-items-center">
+                <div class="col-md-9 mr-auto text-left pl-5">
+                    <h5 class="title-heading p-2 d-inline-block text-uppercase">
+                        new food
+                    </h5>
+                    <h2 class="title text-uppercase my-2">
+                        Special burger
+                    </h2>
+                    <h3 class="text-uppercase">
+                        foods name
+                    </h3>
+                    <h6 class="text-capitalize">
+                        Price
+                    </h6>
+                    <h2>
+                        $45
+                        <a href="#">
+                            <i class="title-icon fas fa-play mx-2 d-inline-block "></i>
+                        </a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- finish header -->
+
+    <!-- start Options section -->
+    <section id="Options" class="Options py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col d-flex flex-wrap justify-content-center">
+                    <h1 class="text-uppercase font-weight-bold mt-2">why choose </h1>
+                    <h1 class="section-title-special text-uppercase mx-1">nahal food</h1>
+                </div>
+            </div>
+
+            <!-- start single Options -->
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 text-center my-5">
+                    <a href="#">
+                        <i class="Options-icon p-2 rounded-circle material-icons" style="font-size: 3.1rem !important; ">restaurant_menu</i>
+                        <!-- <i class="Options-icon p-2 rounded-circle fas fa-car fa-fw"></i> -->
+                    </a>
+                    <h6 class="font-weight-bold text-uppercase my-3">Diverse menu</h6>
+                    <div class="Options-underline mb-2"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, reiciendis?</p>
+                </div>
+                <div class="col-sm-6 col-lg-3 text-center my-5">
+                    <a href="#">
+                        <i class="Options-icon p-2 rounded-circle fas fa-comments fa-fw"></i>
+                    </a>
+                    <h6 class="font-weight-bold text-uppercase my-3">free support</h6>
+                    <div class="Options-underline mb-2"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, reiciendis?</p>
+                </div>
+                <div class="col-sm-6 col-lg-3 text-center my-5">
+                    <a href="#">
+                        <i class="Options-icon p-2 rounded-circle fas fa-people-carry fa-fw"></i>
+                    </a>
+                    <h6 class="font-weight-bold text-uppercase my-3">delivery</h6>
+                    <div class="Options-underline mb-2"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, reiciendis?</p>
+                </div>
+                <div class="col-sm-6 col-lg-3 text-center my-5">
+                    <a href="#">
+                        <i class="Options-icon p-2 rounded-circle fas fa-wallet fa-fw"></i>
+                    </a>
+                    <h6 class="font-weight-bold text-uppercase my-3">online reserve</h6>
+                    <div class="Options-underline mb-2"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, reiciendis?</p>
+                </div>
+                <!-- finish single Options -->
+
+            </div>
+    </section>
+    <!-- finish Skill section -->
+
+    <!-- Start inventory section -->
+    <section class="inventory" id="inventoryes">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col d-flex flex-wrap justify-content-center">
+                    <h1 class="text-uppercase font-weight-bold mt-2">our </h1>
+                    <h1 class="section-title-special text-uppercase mx-1">inventory</h1>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-10 col-md-12 d-flex justify-content-end mx-auto">
+                    <button class="btn btn-outline-danger text-uppercase align-items-end mx-1">all</button>
+                    <button class="btn btn-outline-danger text-uppercase align-items-end mx-1">burger</button>
+                    <button class="btn btn-outline-danger text-uppercase align-items-end mx-1">pizza</button>
+                </div>
+            </div>
+
+            <!-- start car cards -->
+            <div class="row">
+                <div class="col-10 col-md-6 mx-auto col-lg-4 my-5">
+                    <div class="car-card card">
+                        <img class="car-img card-img-top" src="img2/burger1.jpg" alt="">
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text text-capitalize">
+                                    <h6 class="card-title font-weight-bold">food name</h6>
+                                    <p class="card-text">Content</p>
+                                </div>
+                                <div class="car-value align-self-center">
+                                    <h5 class="car-price py-1 px-3">$100</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex text-capitalize justify-content-between">
+                            <p class="px-1">tomato</p>
+                            <p class="px-1">Cucumber</p>
+                            <p class="px-1">Lettuce</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6 mx-auto col-lg-4 my-5">
+                    <div class="car-card card">
+                        <img class="car-img card-img-top" src="img2/burger2.jpg" alt="">
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text text-capitalize">
+                                    <h6 class="card-title font-weight-bold">food name</h6>
+                                    <p class="card-text">Content</p>
+                                </div>
+                                <div class="car-value align-self-center">
+                                    <h5 class="car-price py-1 px-3">$100</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex text-capitalize justify-content-between">
+                            <p class="px-1">tomato</p>
+                            <p class="px-1">Cucumber</p>
+                            <p class="px-1">Lettuce</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6 mx-auto col-lg-4 my-5">
+                    <div class="car-card card">
+                        <img class="car-img card-img-top" src="img2/burger3.jpg" alt="">
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text text-capitalize">
+                                    <h6 class="card-title font-weight-bold">food name</h6>
+                                    <p class="card-text">Content</p>
+                                </div>
+                                <div class="car-value align-self-center">
+                                    <h5 class="car-price py-1 px-3">$100</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex text-capitalize justify-content-between">
+                            <p class="px-1">tomato</p>
+                            <p class="px-1">Cucumber</p>
+                            <p class="px-1">Lettuce</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6 mx-auto col-lg-4 my-5">
+                    <div class="car-card card">
+                        <img class="car-img card-img-top" src="img2/pizza1.jpg" alt="">
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text text-capitalize">
+                                    <h6 class="card-title font-weight-bold">food name</h6>
+                                    <p class="card-text">Content</p>
+                                </div>
+                                <div class="car-value align-self-center">
+                                    <h5 class="car-price py-1 px-3">$100</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex text-capitalize justify-content-between">
+                            <p class="px-1">tomato</p>
+                            <p class="px-1">Cucumber</p>
+                            <p class="px-1">Lettuce</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6 mx-auto col-lg-4 my-5">
+                    <div class="car-card card">
+                        <img class="car-img card-img-top" src="img2/pizza2.jpg" alt="">
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text text-capitalize">
+                                    <h6 class="card-title font-weight-bold">food name</h6>
+                                    <p class="card-text">Content</p>
+                                </div>
+                                <div class="car-value align-self-center">
+                                    <h5 class="car-price py-1 px-3">$100</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex text-capitalize justify-content-between">
+                            <p class="px-1">tomato</p>
+                            <p class="px-1">Cucumber</p>
+                            <p class="px-1">Lettuce</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6 mx-auto col-lg-4 my-5">
+                    <div class="car-card card">
+                        <img class="car-img card-img-top" src="img2/pizza3.jpg" alt="">
+                        <div class="card-body">
+                            <div class="car-info d-flex justify-content-between">
+                                <div class="car-text text-capitalize">
+                                    <h6 class="card-title font-weight-bold">food name</h6>
+                                    <p class="card-text">Content</p>
+                                </div>
+                                <div class="car-value align-self-center">
+                                    <h5 class="car-price py-1 px-3">$100</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex text-capitalize justify-content-between">
+                            <p class="px-1">tomato</p>
+                            <p class="px-1">Cucumber</p>
+                            <p class="px-1">Lettuce</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Finish car cards -->
+        </div>
+    </section>
+    <!-- Finish inventory section -->
+
+    <!-- start question section -->
+    <section class="section question py-5">
+        <div class="container">
+            <div class="row">
+                <!-- start first -->
+                <div class="col-10 m-auto p-4 col-md-6 justify-content-between d-flex question-gray">
+                    <a href="#" class="question-icon">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <div class="question-text w-75">
+                        <h4 class="question-title font-weight-bold">Are you hungry?</h4>
+                        <p class="question-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, totam.
+                        </p>
+                    </div>
+                </div>
+                <!-- finish first -->
+
+                <!-- start last -->
+                <div class="col-10 m-auto p-4 col-md-6 justify-content-between d-flex question-yellow">
+                    <a href="#" class="question-icon">
+                        <i class="fas fa-dollar-sign fa-fw"></i>
+                    </a>
+                    <div class="question-text w-75">
+                        <h4 class="question-title font-weight-bold"> Do not know how to cook?</h4>
+                        <p class="question-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, totam.
+                        </p>
+                    </div>
+                </div>
+                <!-- finish last -->
+            </div>
+        </div>
+    </section>
+    <!-- finish question section -->
+
+    <!-- start featured  -->
+    <section class="featured py-5" id="featured">
+        <div class="container">
+            <!--Section Title-->
+            <div class="row mb-5">
+                <div class="col d-flex flex-wrap text-uppercase justify-content-center">
+                    <h1 class="font-weight-bold align-self-center mx-1">FEATURED</h1>
+                    <h1 class="section-title-special mx-1">FOODS</h1>
+                </div>
+            </div>
+            <!-- End Section Title-->
+
+            <div class="row">
+                <!--featured info-->
+                <div class="col-10 mx-auto col-lg-6 featured-info my-3">
+                    <!--Single Item-->
+                    <div class="featured-item my-3 d-flex p-2 text-capitalize
+           align-items-baseline flex-wrap">
+                        <h5 class="font-weight-bold mx-1">special burger</h5>
+                        <h5 class="mx-1">new food</h5>
+                    </div>
+                    <!--End Single Item-->
+                    <!--Single Item-->
+                    <div class="featured-item my-3 d-flex p-2 text-capitalize
+              align-items-baseline flex-wrap">
+                        <h5 class="font-weight-bold mx-1">special burger</h5>
+                        <h5 class="mx-1">new food</h5>
+                    </div>
+                    <!--End Single Item-->
+                    <!--Single Item-->
+                    <div class="featured-item my-3 d-flex p-2 text-capitalize
+            align-items-baseline flex-wrap">
+                        <h5 class="font-weight-bold mx-1">special burger</h5>
+                        <h5 class="mx-1">new food</h5>
+                    </div>
+                    <!--End Single Item-->
+                    <!--Single Item-->
+                    <div class="featured-item my-3 d-flex p-2 text-capitalize
+            align-items-baseline flex-wrap">
+                        <h5 class="font-weight-bold mx-1">special burger</h5>
+                        <h5 class="mx-1">new food</h5>
+                    </div>
+                    <!--End Single Item-->
+                    <!--Single Item-->
+                    <div class="featured-item my-3 d-flex p-2 text-capitalize
+                                        align-items-baseline flex-wrap">
+                        <h5 class="font-weight-bold mx-1">special burger</h5>
+                        <h5 class="mx-1">new food</h5>
+                    </div>
+                    <!--End Single Item-->
+                </div>
+                <!--featured img-->
+                <div class="col-10 mx-auto col-lg-6 featured-img my-3 align-self-center">
+                    <div class="img-container">
+                        <img src="img2/img10.jpg" alt="" class="img-fluid featured-photo">
+                        <a href="#" class="featured-link">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- finish featured  -->
+
+    <!-- start gallery section -->
+    <section class="gallery py-5" id="gallery">
+        <div class="container">
+            <!--start Section Title-->
+            <div class="row mb-5">
+                <div class="col d-flex flex-wrap text-uppercase justify-content-center">
+                    <h1 class="font-weight-bold align-self-center mx-1">our</h1>
+                    <h1 class="section-title-special mx-1">gallery</h1>
+                </div>
+            </div>
+            <!--finish Section Title-->
+
+            <!-- start pictures -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="gallery-item">
+                        <img src="img2/sandwich1.jpg" class="img-fluid gallery-img">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-between">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="gallery-item">
+                                <img src="img2/sandwich2.jpg" class="img-fluid gallery-img">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="gallery-item">
+                                <img src="img2/sandwich3.jpg" class="img-fluid gallery-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="gallery-item">
+                                <img src="img2/sandwich4.jpeg" class="img-fluid gallery-img">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="gallery-item">
+                                <img src="img2/sandwich5.jpeg" class="img-fluid gallery-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- finish pictures -->
+        </div>
+    </section>
+    <!-- finish gallery section -->
+
+    <!-- start cantact section -->
+    <section class="contact py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 col-md-6 mx-auto">
+                    <div class="form-group">
+                        <input id="my-input" class="contact-input form-control" type="email" placeholder="Enter Email">
+                        <button class="btn btn-outline-secondary btn-block contact-btn my-2"
+                            type="button">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- finish cantact section -->
+
+    <!-- start Services section -->
+    <div class="container" id="services">
+        <!--start Section Title-->
+        <div class="row my-5 mx-auto">
+            <div class="col d-flex flex-wrap text-uppercase justify-content-center">
+                <h1 class="font-weight-bold align-self-center mx-1">our</h1>
+                <h1 class="section-title-special mx-1">Services</h1>
+            </div>
+        </div>
+        <!--finish Section Title-->
+        <section class="Services py-5 d-flex align-items-center mx-auto">
+            <div class="video-container">
+                <video class="video-item" autoplay loop muted>
+                    <source src="video/intro.mp4">
+                </video>
+            </div>
+            <div class="video-overlay"></div>
+            <!-- start service cards -->
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-8 col-md-4 col-lg-6 mx-auto my-3">
+                        <div class="service-card py-5 pl-4">
+                            <span class="service-icon">
+                                <i class="material-icons" style="font-size: 50px !important;">local_pizza</i>
+                            </span>
+                            <h6 class="service-title text-capitalize">Order food</h6>
+                            <h5 class="text-uppercase font-weight-bold">Order food</h5>
+                        </div>
+                    </div>
+                    <div class="col-8 col-md-4 col-lg-6 mx-auto my-3">
+                        <div class="service-card py-5 pl-4">
+                            <span class="service-icon">
+                                <i class="material-icons" style="font-size: 50px !important;">local_pizza</i>
+                            </span>
+                            <h6 class="service-title text-capitalize">Order food</h6>
+                            <h5 class="text-uppercase font-weight-bold">Order food</h5>
+                        </div>
+                    </div>
+                    <div class="col-8 col-md-4 col-lg-6 mx-auto my-3">
+                        <div class="service-card py-5 pl-4">
+                            <span class="service-icon">
+                                <i class="material-icons" style="font-size: 50px !important;">local_pizza</i>
+                            </span>
+                            <h6 class="service-title text-capitalize">Order food</h6>
+                            <h5 class="text-uppercase font-weight-bold">Order food</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- finish service cards -->
+
+
+
+        </section>
+    </div>
+    <!-- finish Services section -->
+
+    <!-- start quotes section -->
+    <section class="quotes py-5 my-5" id="quotes">
+        <div class="container">
+            <!--start Section Title-->
+            <div class="row my-5 mx-auto">
+                <div class="col d-flex flex-wrap text-uppercase justify-content-center">
+                    <h1 class="font-weight-bold align-self-center mx-1">what</h1>
+                    <h1 class="section-title-special mx-1">they say</h1>
+                </div>
+            </div>
+            <!--finish Section Title-->
+            <div class="row">
+                <div class="col-10 col-md-6 col-lg-4 mx-auto">
+                    <div class="card my-3">
+                        <img class="card-img-top" src="img2/pizza2.jpg" width="100%">
+                        <div class="customer-card-body card-body text-center">
+                            <img src="img/customer-1.jpg" class="customer-img rounded-circle">
+                            <div class="card-title">
+                                <h5 class="customer-name text-capitalize">customer name</h5>
+                            </div>
+                            <h6 class="customer-job text-capitalize">customer job</h6>
+                            <p class="customer-qoutes card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</p>
+                            <span class="customer-icon card-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6 col-lg-4 mx-auto">
+                    <div class="card my-3">
+                        <img class="card-img-top" src="img2/potato1.jpg" width="100%">
+                        <div class="customer-card-body card-body text-center">
+                            <img src="img/customer-2.jpg" class="customer-img rounded-circle">
+                            <div class="card-title">
+                                <h5 class="customer-name text-capitalize">customer name</h5>
+                            </div>
+                            <h6 class="customer-job text-capitalize">customer job</h6>
+                            <p class="customer-qoutes card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</p>
+                            <span class="customer-icon card-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6 col-lg-4 mx-auto">
+                    <div class="card my-3">
+                        <img class="card-img-top" src="img2/burger3.jpg" width="100%">
+                        <div class="customer-card-body card-body text-center">
+                            <img src="img/customer-3.jpg" class="customer-img rounded-circle">
+                            <div class="card-title">
+                                <h5 class="customer-name text-capitalize">customer name</h5>
+                            </div>
+                            <h6 class="customer-job text-capitalize">customer job</h6>
+                            <p class="customer-qoutes card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</p>
+                            <span class="customer-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- finish quotes section -->
+
+    <!-- start footer -->
+    <footer class="footer py-5 d-block">
+        <div class="footer-icons d-flex justify-content-around">
+            <a class="footer-icon" href="#"><i class="fab fa-facebook"></i></a>
+            <a class="footer-icon" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="footer-icon" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="footer-icon" href="#"><i class="fab fa-linkedin"></i></a>
+            <a class="footer-icon" href="#"><i class="fab fa-google-plus"></i></a>
+        </div>
+    </footer>
+    <!-- finish footer -->
+
+</body>
+<!-- jquery -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- script js -->
+<script src="js/script.js"></script>
+
+</html>
